@@ -7,7 +7,7 @@ module.exports = {
     entry: './src/app/index.js',
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, '../dist')
     },
 
     module: {
@@ -18,7 +18,7 @@ module.exports = {
     },
 
     plugins: [
-        new CleanWebpackPlugin(['dist']),
+        new CleanWebpackPlugin(['../dist']),
         new HtmlWebpackPlugin({
             title: 'Example webpack setup'
         }),
