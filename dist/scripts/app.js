@@ -75,7 +75,7 @@
 function index() {
     var body = document.getElementsByName('body');
     if (body) {
-      console.log('body');
+      console.log('body updated stuff!');
     }
 };
 
@@ -87,7 +87,6 @@ function index() {
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modules_index__ = __webpack_require__(0);
-
 
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__modules_index__["a" /* default */])();
 

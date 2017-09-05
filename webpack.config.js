@@ -9,29 +9,29 @@ module.exports = {
     watch: true
 };
 
-module.exports = {
-    entry: './src/sass/app.scss',
-    output: {
-      filename: 'app.css',
-      path: path.resolve(__dirname, 'dist/css')
-    },
-    module: {
-        rules: [{
-            test: /\.scss$/,
-            use: [{
-                loader: 'style-loader'
-            }, {
-                loader: 'css-loader',
-                options: {
-                    sourceMap: true
-                }
-            }, {
-                loader: 'sass-loader',
-                options: {
-                    sourceMap: true
-                }
-            }]
-        }],
-
-    }
-}
+// module.exports = {
+//     entry: './src/sass/app.scss',
+//     output: {
+//       filename: 'app.css',
+//       path: path.resolve(__dirname, 'dist/css')
+//     },
+//     module: {
+//         rules: [{
+//             test: /\.scss$/,
+//             use: [{
+//                 loader: 'style-loader'
+//             }, {
+//                 loader: 'css-loader',
+//                 options: {
+//                     sourceMap: true
+//                 }
+//             }, {
+//                 loader: 'sass-loader',
+//                 options: {
+//                     sourceMap: true
+//                 }
+//             }]
+//         }],
+//
+//     }
+// }
