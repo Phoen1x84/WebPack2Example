@@ -1,21 +1,22 @@
 {
-  "name": "webpack2-example",
+  "name": "webpack-example",
   "version": "1.0.0",
-  "description": "webpack 2",
+  "description": "webpack 3 example project",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --config ./config/webpack.dev.js",
     "build": "webpack --config ./config/webpack.prod.js"
   },
   "repository": {
-  "type": "git",
+    "type": "git",
     "url": "git+https://github.com/Phoen1x84/WebPack2Example.git"
   },
   "keywords": [
-    "webpack2"
+    "webpack",
+    "webpack 3"
   ],
-  "author": "@Pho3n1x84",
-  "license": "ISC",
+  "author": "@Pho3n1x84 - Matthew Neil",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Phoen1x84/WebPack2Example/issues"
   },
